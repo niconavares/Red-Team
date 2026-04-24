@@ -20,13 +20,8 @@ Operación Red Team completa: desde OSINT sobre una corporación real hasta la i
 
 ## 🗺️ Arquitectura
 
-┌──────────────┐ SSH Reverse Tunnel ┌──────────────┐
-│ Windows 10 │ ───────────────────────────► │ Debian 12 │
-│ (Víctima) │ ◄─────── HTTPS C2 ───────── │ (Atacante) │
-└──────────────┘ └──────────────┘
-▲ ▲
-│ Mac M1 (Operador) │
-└────────────────── RDP ─────────────────────┘
+<img width="2943" height="690" alt="C2 Server Communication Flow-2026-04-24-102914" src="https://github.com/user-attachments/assets/ad2e8fb2-8d35-4d66-80e3-ae7fd72b6768" />
+
 
 
 ---
